@@ -10,6 +10,8 @@ packages = [{include = "cw_6_django"}]
 python = "^3.11"
 django = "^4.2.3"
 psycopg2-binary = "^2.9.6"
+pillow = "^10.0.0"
+transliterate = "^1.10.2"
 
 
 [build-system]

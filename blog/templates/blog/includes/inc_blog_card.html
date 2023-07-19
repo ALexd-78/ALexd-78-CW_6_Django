@@ -1,0 +1,18 @@
+{% load mailing_tags %}
+<div class="col-lg-4">
+    <div class="card w-75 my-2" style="max-width:100%;" alt="...">
+        <img src="{% mediapath blog.preview %}"/>
+{#                       <img src="{{ object.image|mediapath }}" />#}
+        <div class="card-body">
+            <h5 class="card-title">{{ blog.heading }}</h5>
+
+            <p class="card-text">{{ blog.content|truncatechars:100 }}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Дата создания: {{ blog.create_date }}</li>
+                       <li class="list-group-item">Количество просмотров: {{ blog.count_views }}</li>
+            <div class="card-footer">
+                <a class="btn btn-secondary" href="{% url 'blog:blog_item' blog.pk %}" role="button">Детали >></a>
+                       </div>
+    </div>
+</div><!-- /.col-lg-4 -->

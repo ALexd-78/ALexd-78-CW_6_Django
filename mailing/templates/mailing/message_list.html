@@ -1,0 +1,30 @@
+{% extends 'mailing/base.html' %}
+
+{% block content %}
+    <div class="col-12">
+        <a href="{% url 'mailing:client_create' %}" class="btn btn-primary">Добавить нового клиента</a>
+    </div>
+    <table class="table table-sm">
+        <thead>
+        <tr>
+            <th scope="col">№</th>
+            <th scope="col">Тема</th>
+            <th scope="col">Содержание</th>
+            <th scope="col">Детали</th>
+            <th scope="col">Редактирование</th>
+            <th scope="col">Удаление</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            {% for message in message_list %}
+
+                {% include 'mailing/includes/inc_message_card.html' %}
+            {% endfor %}
+        </tr>
+        </tbody>
+    </table>
+    <div class="col-12">
+        <a href="{% url 'mailing:messages_menu' %}" class="btn btn-primary"><< Назад</a>
+    </div>
+{% endblock %}

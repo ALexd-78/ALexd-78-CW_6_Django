@@ -1,0 +1,51 @@
+{% load mailing_tags %}
+
+
+<div class="col-lg-8">
+    {#    <div class="card m-2 text-center">#}
+    {#        <div class="card-body">#}
+    {#            <svg class="bd-placeholder-img rounded-circle" width="140" height="140"#}
+    {#                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"#}
+    {#                 preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>#}
+    {#                <rect width="100%" height="100%" fill="#777"/>#}
+    {#                <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>#}
+    {#            </svg>#}
+    {#            <h2>{{ client.first_name|title }} {{ client.last_name|title }}</h2>#}
+
+    {#    <table class="table table-sm">#}
+    {#        <thead>#}
+    {#        <tr>#}
+    {#            <th scope="col">#</th>#}
+    {#            <th scope="col">Имя</th>#}
+    {#            <th scope="col">Фамилия</th>#}
+    {#            <th scope="col">Электронная почта</th>#}
+    {#            <th scope="col">Детали</th>#}
+    {#            <th scope="col">#</th>#}
+    {#        </tr>#}
+    {#        </thead>#}
+    <tbody>
+    <tr>
+        <th scope="row">{{ message.id }}</th>
+        <td>{{ message.name }}</td>
+        <td>{{ message.body }}</td>
+        <td><a class="btn btn-outline-primary" href="{% url 'mailing:message_item' message.pk %}" role="button">Подробнее
+            &raquo;</a></td>
+        <td><a class="btn btn-outline-success" href="{% url 'mailing:message_update' message.pk %}" role="button">Изменить
+            &raquo;</a></td>
+        <td><a class="btn btn-outline-danger" href="{% url 'mailing:message_delete' message.pk %}" role="button">Удалить
+            &raquo;</a></td>
+    </tr>
+    </tbody>
+    {#    </table>#}
+
+    {#    </table>#}
+    {#    <p><a class="btn btn-secondary" href="{% url 'mailing:client_item' client.pk %}" role="button">Подробнее#}
+    {#        &raquo;</a></p>#}
+    {#    <p><a class="btn btn-warning" href="{% url 'mailing:client_update' client.pk %}" role="button">Изменить#}
+    {#        &raquo;</a></p>#}
+    {#    <p><a class="btn btn-danger" href="{% url 'mailing:client_delete' client.pk %}" role="button">Удалить#}
+    {#        &raquo;</a></p>#}
+
+    {#</div>#}
+    {#</div>#}
+</div><!-- /.col-lg-4 -->

@@ -1,0 +1,10 @@
+{% extends 'mailing/base.html' %}
+
+{% block content %}
+    <div class="col-12">
+{#    <a href="{% url 'blog:blog_create' %}" class="btn btn-primary">Создать статью</a>#}
+    </div>
+    {% for blog in blog_list %}
+       {% include 'blog/includes/inc_blog_card.html' %}
+    {% endfor %}
+{% endblock %}

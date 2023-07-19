@@ -1,0 +1,35 @@
+{% extends 'mailing/base.html' %}
+
+{% block content %}
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <table class="table">
+                    <tr>
+                        <td>Заголовок</td>
+                        <td>{{ blog.heading }}</td>
+                    </tr>
+                    <tr>
+                        <td>Содержание</td>
+                        <td>{{ blog.content }}</td>
+                    </tr>
+                    <tr>
+                        <td>Изображение</td>
+                        <td>{{ blog.preview }}</td>
+                    </tr>
+                    <tr>
+                        <td>Дата публикации</td>
+                        <td>{{ blog.create_date }}</td>
+                    </tr>
+                    <tr>
+                        <td>Количество просмотров</td>
+                        <td>{{ blog.count_views }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card-footer">
+                <a href="{% url 'blog:blog_list' %}" class='btn btn-secondary'><< Назад</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

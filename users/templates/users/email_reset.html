@@ -1,0 +1,6 @@
+{% autoescape off %}
+    Восстановление пароля для пользователя с электронной почтой {{ user.email }}. Перейдите по следующей ссылке:
+    {% block reset_link %}
+        {{ protocol }}://{{ domain }}{% url 'users:password_reset_confirm' uidb64=uid token=token %}
+    {% endblock %}
+{% endautoescape on %}

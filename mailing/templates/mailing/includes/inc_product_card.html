@@ -1,0 +1,40 @@
+{% load mailing_tags %}
+
+<div class="col-lg-4">
+    <div class="card w-75 my-2" style="max-width:100%;" alt="...">
+        <img src="{% mediapath object.image %}"/>
+        {#        <img src="{{ object.image|mediapath }}" />#}
+        <div class="card-body">
+            <h5 class="card-title">{{ object.name }}</h5>
+
+            <p class="card-text">{{ object.description|truncatechars:100 }}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Цена: {{ object.unit_price }} p</li>
+            <li class="list-group-item">Дата создания: {{ object.creation_date }}</li>
+            <li class="list-group-item">Дата последнего изменения: {{ object.modified_date }}</li>
+            <li class="list-group-item">Опубликовано:
+                {% if object.is_publicate %}
+                    Да
+                {% else %}
+                    Нет
+                {% endif %}
+            </li>
+            {% for version in object.version_set.all %}
+                {% if version.is_active %}
+                    <li class="list-group-item">Версия: {{ version.name }}</li>
+                    <li class="list-group-item">номер версии: {{ version.number }}</li>
+                {% endif %}
+            {% endfor %}
+            <div class="card-footer">
+                <p><a class="btn btn-secondary" href="{% url 'catalog:product_item' object.pk %}"
+                      role="button">Детали>></a></p>
+                <p><a class="btn btn-warning" href="{% url 'catalog:product_update' object.pk %}" role="button">Изменить>></a>
+                </p>
+                {% if perms.catalog.can_unpublicate_product %}
+                    <p><a class="btn btn-danger" href="{% url 'catalog:product_delete' object.pk %}"
+                          role="button">Удалить>></a></p>
+                {% endif %}
+            </div>
+    </div>
+</div><!-- /.col-lg-4 -->

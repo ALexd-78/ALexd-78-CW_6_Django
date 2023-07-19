@@ -1,0 +1,24 @@
+{% extends 'mailing/base.html' %}
+
+{% block content %}
+    <div class="col">
+        <div class="card">
+            <div class="card-header">
+                Меню сервиса рассылки
+            </div>
+            <div class="card-body">
+                <a class="p-2 btn btn-link" href="{% url 'mailing:client_list' %}">Клиенты</a>
+            </div>
+            <div class="card-body">
+                <a class="p-2 btn btn-link" href="{% url 'mailing:message_list' %}">Рассылки</a>
+            </div>
+            <div class="card-body">
+                <a class="p-2 btn btn-link" href="#">Отчёты</a>
+            </div>
+            <div class="card-footer">
+                <a href="{% url 'mailing:index' %}" class="btn btn-primary"><< Назад</a>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,7 +1,36 @@
-<form method="post" >
-    {% csrf_token %}
-    <input placeholder="name" name="name"/><br><br>
-    <input placeholder="email" name="email" type=”email”/><br><br>
-    <textarea placeholder="your message" name="message"></textarea><br><br>
-    <input type="submit" value="Submit" />
-</form>
+{% extends 'mailing/base.html' %}
+
+{% block content %}
+    {% for blog in blog_list %}
+        {% include 'blog/includes/inc_blog_card.html' %}
+    {% endfor %}
+
+    <div class="table">
+    <table>
+        <tr>
+            <td>
+                Количество рассылок всего:
+            </td>
+            <td>
+                {{ message_count }}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Количество активных рассылок:
+            </td>
+            <td>
+                {{ message_active_count }}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Количество уникальных клиентов для рассылок:
+            </td>
+            <td>
+                {{ unique_clients_count }}
+            </td>
+        </tr>
+    </table>
+</div>
+{% endblock %}
