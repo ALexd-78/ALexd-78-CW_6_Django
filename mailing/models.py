@@ -1,5 +1,6 @@
 from django.db import models
 
+from config import settings
 from users.models import User
 
 NULLABLE = {'blank': True, 'null': True}
@@ -13,7 +14,7 @@ class Client(models.Model):
     comment = models.TextField(max_length=400, verbose_name='комментарий', **NULLABLE)
     is_active = models.BooleanField(default=True, verbose_name='активный')
 
-    owner = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, **NULLABLE)
 
     def __str__(self):
         return f'{self.first_name} {self.last_name}'
@@ -23,7 +24,7 @@ class Client(models.Model):
         self.save()
 
     class Meta:
-        verbose_name = 'клиента'
+        verbose_name = 'клиент'
         verbose_name_plural = 'клиенты'
         ordering = ('last_name',)
 
@@ -33,7 +34,7 @@ class Message(models.Model):
     body = models.TextField(verbose_name='тело письма')
     is_publication = models.BooleanField(default=True, verbose_name='Опубликовано')
 
-    owner = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, **NULLABLE)
 
     def __str__(self):
         return f'{self.name}'
@@ -62,7 +63,7 @@ class SetMessage(models.Model):
 
     class Meta:
         '''Класс мета-настроек'''
-        verbose_name = 'настройку рассылки'
+        verbose_name = 'настройка рассылки'
         verbose_name_plural = 'настройки рассылки'
         ordering = ('mailing_time',)  # сортировка, '-name' - сортировка в обратном порядке
         # ordering = ('mailing_time', 'frequency', 'status',)  # сортировка, '-name' - сортировка в обратном порядке

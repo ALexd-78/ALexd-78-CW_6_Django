@@ -15,6 +15,6 @@ class Blog(models.Model):
 
     class Meta:
         '''Класс мета-настроек'''
-        verbose_name = 'Статью'
+        verbose_name = 'Статья'
         verbose_name_plural = 'Статьи'
         ordering = ('heading',)
