@@ -2,19 +2,17 @@
 
 ### 1. Для запуска приложения необходимо настроить виртуальное окружение и установить все необходимые зависимости с помощью команд:
     Команда для Windows:
-        - python -m venv venv
-        - venv\Scripts\activate
-        - pip install poetry
-        - poetry install
+    1- python -m venv venv
+    2- venv\Scripts\activate
+    3- pip install -r requirement.txt
 
     Команда для Unix:
-        - python3 -m venv venv
-        - source venv/bin/activate 
-        - pip install poetry
-        - poetry install
+    1- python3 -m venv venv
+    2- source venv/bin/activate 
+    3- pip install -r requirement.txt
 
 ### 2. Для запуска celery:
-        - celery -A config beat --loglevel=info celery -A config worker --loglevel=info
+        1- celery -A config worker -l info
 
 ### 3. Для запуска redis:
     Redis официально не поддерживается в Windows: 
