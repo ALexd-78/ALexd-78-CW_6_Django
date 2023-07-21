@@ -1,12 +1,15 @@
+from django.conf import settings
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.core.cache import cache
 
 from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views import generic
 
 from blog.models import Blog
-from mailing.forms import ClientForm, MessageForm
+from mailing.forms import ClientForm, MessageForm, UserForm
 from mailing.models import Client, Message
+from users.models import User
 
 
 def index(request):
@@ -48,6 +51,7 @@ class ClientDetailView(LoginRequiredMixin, generic.DetailView):
     def get_context_data(self, *args, **kwargs):
         context_data = super().get_context_data(**kwargs)
         context_data['title'] = context_data['object']
+
         return context_data
 
 
@@ -165,3 +169,26 @@ def get_messages(request):
         'title': 'Меню рассылки'
     }
     return render(request, 'mailing/messages_menu.html', context)
+
+
+class UserListView(LoginRequiredMixin, generic.ListView):
+    '''Контроллер вывода пользователей'''
+    model = User
+    form_class = UserForm
+
+    extra_context = {
+        'title': 'Пользователи'
+    }
+
+    def get_queryset(self):
+        '''фильтр на отображение только клиентов пользователя'''
+        # queryset = super().get_queryset()
+
+        user = self.request.user
+        if user.is_staff or user.is_superuser:
+            queryset = User.objects.all()
+        else:
+            pass
+
+        queryset = queryset.filter(is_publication=True)
+        return queryset

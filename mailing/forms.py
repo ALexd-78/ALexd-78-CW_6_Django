@@ -41,3 +41,12 @@ class LogMessageForm(FormStyleMixin, forms.ModelForm):
     class Meta:
         model = LogMessage
         fields = '__all__'
+
+
+class UserForm(FormStyleMixin, forms.ModelForm):
+
+    class Meta:
+        model = Client
+        fields = '__all__'
+        # fields = ('name', 'description', 'category', 'unit_price',)
+        # exclude = ('is_publicate',)
