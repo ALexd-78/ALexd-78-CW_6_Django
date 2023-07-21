@@ -2,20 +2,25 @@ import json
 
 from django.core.management import BaseCommand, call_command
 
-from catalog.models import Category, Product
+from blog.models import Blog
+from mailing.models import Client, Message
 
 
 class Command(BaseCommand):
 
     def handle(self, *args, **options):
 
-        # удаление данных из таблицы Category
-        Category.objects.all().delete()
-        # удаление данных из таблицы Product
-        Product.objects.all().delete()
+        # удаление данных из таблицы Blog
+        Blog.objects.all().delete()
+        # удаление данных из таблицы Client
+        Client.objects.all().delete()
+        # удаление данных из таблицы Message
+        Message.objects.all().delete()
 
-        # наполнение таблицы Category из json-файла
-        call_command('loaddata', 'catalog_category.json')
-        # наполнение таблицы Product из json-файла
-        call_command('loaddata', 'catalog_product.json')
+        # наполнение таблицы Blog из json-файла
+        call_command('loaddata', 'blog.json')
+        # наполнение таблицы Client из json-файла
+        call_command('loaddata', 'client.json')
+        # наполнение таблицы Message из json-файла
+        call_command('loaddata', 'message.json')
 

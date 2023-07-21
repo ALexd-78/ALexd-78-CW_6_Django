@@ -1,0 +1,1144 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-07-14T09:44:24.002Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "Petr Ivankov",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-07-14T19:43:38.800Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "Ivan Petrov",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-07-14T22:41:12.873Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "Oleg Udorov",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-07-14T22:56:41.375Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "Oleg Udorov",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0410\\u043a\\u0442\\u0438\\u0432\\u043d\\u044b\\u0439\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-07-16T21:35:09.958Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "Petr Ivanov",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-07-17T23:36:15.852Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "бананы",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-07-17T23:37:00.122Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "картофель",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-07-17T23:37:36.588Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "ягоды",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-07-18T00:24:13.702Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "erthsdfh",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-07-18T21:10:11.741Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Сервисы email-рассылок",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-07-18T21:49:34.898Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Сервисы email-рассылок",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-07-18T22:10:29.631Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Какие существуют типы e mail рассылок?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-07-18T22:14:18.854Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "Что передается по электронной почте e mail?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-07-18T22:16:58.614Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "Безопасность при использовании электронной почты?",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-07-19T22:14:32.205Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Mailing managers",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-07-19T22:22:44.849Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Mailing managers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-07-19T22:23:10.218Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "alexd-78@yandex.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-07-19T22:28:55.831Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "alexd-78@yandex.ru",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-07-19T22:30:33.215Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Mailing managers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-07-19T22:55:19.934Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Mailing managers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-07-19T22:55:34.502Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Mailing managers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-07-19T23:00:05.032Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Mailing managers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-07-19T23:34:55.014Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "alexd-78@yandex.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-07-19T23:36:55.405Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "alexd-78@yandex.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-07-19T23:39:52.711Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Mailing managers",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-07-19T23:40:30.157Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Mailing managers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-07-19T23:41:16.042Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "alexd-78@yandex.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-07-19T23:41:27.997Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "alexd-78@yandex.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-07-19T23:43:13.764Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Mailing managers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-07-19T23:49:21.942Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Mailing managers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-07-19T23:50:19.951Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Mailing managers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-07-19T23:50:59.058Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Mailing managers",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-07-20T07:06:16.139Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "alexd-78@yandex.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-07-20T07:57:14.001Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "alexd-78@yandex.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-07-20T08:02:42.345Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "alexd-78@yandex.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-07-20T08:05:06.067Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "alexd-78@yandex.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add клиент",
+      "content_type": 6,
+      "codename": "add_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change клиент",
+      "content_type": 6,
+      "codename": "change_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete клиент",
+      "content_type": 6,
+      "codename": "delete_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view клиент",
+      "content_type": 6,
+      "codename": "view_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add лог",
+      "content_type": 7,
+      "codename": "add_logmessage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change лог",
+      "content_type": 7,
+      "codename": "change_logmessage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete лог",
+      "content_type": 7,
+      "codename": "delete_logmessage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view лог",
+      "content_type": 7,
+      "codename": "view_logmessage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add сообщение",
+      "content_type": 8,
+      "codename": "add_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change сообщение",
+      "content_type": 8,
+      "codename": "change_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete сообщение",
+      "content_type": 8,
+      "codename": "delete_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view сообщение",
+      "content_type": 8,
+      "codename": "view_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add настройка",
+      "content_type": 9,
+      "codename": "add_setmessage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change настройка",
+      "content_type": 9,
+      "codename": "change_setmessage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete настройка",
+      "content_type": 9,
+      "codename": "delete_setmessage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view настройка",
+      "content_type": 9,
+      "codename": "view_setmessage"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 10,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 10,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 10,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 10,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add Статья",
+      "content_type": 11,
+      "codename": "add_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change Статья",
+      "content_type": 11,
+      "codename": "change_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete Статья",
+      "content_type": 11,
+      "codename": "delete_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view Статья",
+      "content_type": 11,
+      "codename": "view_blog"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "Mailing managers",
+      "permissions": [
+        32,
+        40
+      ]
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "mailing",
+      "model": "client"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "mailing",
+      "model": "logmessage"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "mailing",
+      "model": "message"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "mailing",
+      "model": "setmessage"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "blog",
+      "model": "blog"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "8bb9mgb3pje4i1tq3da02frgacppmclz",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSHIY8K4dO83kAEGqRpISrtq_Hdt0oVu7znnbiLQutSwDp7DlMVFaHH63SKlJ7cd5Ae1e5ept2WeotwVedAhbz3z63q4fweVRv3W52wI0QBEjRR1AW-sR0DjC1mlAC2B04VNZm8ceS5YlHVaWVApuyLeH8NzNy0:1qMGj7:99opNRkhIaWbJRWQ4BBjSRGy3I356cuLasM6DsZt30k",
+      "expire_date": "2023-08-02T23:37:01.360Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "f6q5g0wuco1h8sr2mzv58j4zzabndy10",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pDAlA64dO8ZyMAMUjU0Ke3KeHdt0oVu_3vvv1Skba1x67LEidVZGXX63RLlh7Qd8J3abdZ5busyJb0r-qBdX2eW5-Vw_w4q9fqtpeQExEVCcI490ogMiACpkGEPAcdg0IEPHpkLFGfZYhoy2SDODer9Afy0OAM:1qMokP:bd6dnu2P4u4hohXodBihmYHOZt8_qZNDeFD9e6l8iGk",
+      "expire_date": "2023-08-04T11:56:37.906Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "kzk7lewm2dyeltgzr48wvq9ak2flav77",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pDAlA64dO8ZyMAMUjU0Ke3KeHdt0oVu_3vvv1Skba1x67LEidVZGXX63RLlh7Qd8J3abdZ5busyJb0r-qBdX2eW5-Vw_w4q9fqtpeQExEVCcI490ogMiACpkGEPAcdg0IEPHpkLFGfZYhoy2SDODer9Afy0OAM:1qMZ4n:E0BaTPsxWAV_Yq4I2neJab05fBL6pnU0zo1xdNexnI8",
+      "expire_date": "2023-08-03T19:12:37.019Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "o5g6e8w4y8eco6p6mk0robsp2666whib",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSHIY8K4dO83kAEGqRpISrtq_Hdt0oVu7znnbiLQutSwDp7DlMVFaHH63SKlJ7cd5Ae1e5ept2WeotwVedAhbz3z63q4fweVRv3W52wI0QBEjRR1AW-sR0DjC1mlAC2B04VNZm8ceS5YlHVaWVApuyLeH8NzNy0:1qMBgO:UVf8CbGygTzmdVF5LWP2DdKRHNNEJY_LhL80_Arf8bU",
+      "expire_date": "2023-08-02T18:13:52.576Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "qyuqzzhjg3aqkpovt4t8w8yhjmnz42uw",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSHIY8K4dO83kAEGqRpISrtq_Hdt0oVu7znnbiLQutSwDp7DlMVFaHH63SKlJ7cd5Ae1e5ept2WeotwVedAhbz3z63q4fweVRv3W52wI0QBEjRR1AW-sR0DjC1mlAC2B04VNZm8ceS5YlHVaWVApuyLeH8NzNy0:1qMOny:MqzOT76MHLjsxM9ed78cf5BiEzQ_RpC7mEXWbFkApFk",
+      "expire_date": "2023-08-03T08:14:34.193Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "tsknghgjc8xt989lb9t1wmdo4m887je2",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pDAlA64dO8ZyMAMUjU0Ke3KeHdt0oVu_3vvv1Skba1x67LEidVZGXX63RLlh7Qd8J3abdZ5busyJb0r-qBdX2eW5-Vw_w4q9fqtpeQExEVCcI490ogMiACpkGEPAcdg0IEPHpkLFGfZYhoy2SDODer9Afy0OAM:1qLYlx:TTKf2ynmMSKRkWvWRSFChasDwtlL4IQ3-JsMCbuH4aY",
+      "expire_date": "2023-08-01T00:41:01.832Z"
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 1,
+    "fields": {
+      "first_name": "Petr",
+      "last_name": "Ivankov",
+      "email": "test@mail.com",
+      "comment": "qwerty",
+      "is_active": true,
+      "user": null
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 2,
+    "fields": {
+      "first_name": "Ivan",
+      "last_name": "Petrov",
+      "email": "testis@mail.com",
+      "comment": "",
+      "is_active": true,
+      "user": null
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 3,
+    "fields": {
+      "first_name": "Oleg",
+      "last_name": "Udorov",
+      "email": "miki@mail.com",
+      "comment": "",
+      "is_active": true,
+      "user": null
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 4,
+    "fields": {
+      "first_name": "Petr",
+      "last_name": "Ivanov",
+      "email": "test152@mail.com",
+      "comment": "",
+      "is_active": true,
+      "user": null
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 5,
+    "fields": {
+      "first_name": "Sergey",
+      "last_name": "Soloviev",
+      "email": "sol@mail.ru",
+      "comment": "крутой спец",
+      "is_active": true,
+      "user": 2
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 6,
+    "fields": {
+      "first_name": "Ivan",
+      "last_name": "Udorov",
+      "email": "udorov@test.com",
+      "comment": "спец по безопасности сетей",
+      "is_active": true,
+      "user": 2
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 1,
+    "fields": {
+      "name": "бананы",
+      "body": "Бана́н — название съедобных плодов культивируемых растений рода Банан (Musa);",
+      "is_publication": true,
+      "user": null
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 2,
+    "fields": {
+      "name": "картофель",
+      "body": "Карто́фель, или паслён клубнено́сный (лат. Solánum tuberósum), — вид многолетних клубненосных травянистых растений из рода Паслён (Solanum) семейства Паслёновые",
+      "is_publication": true,
+      "user": null
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 3,
+    "fields": {
+      "name": "ягоды",
+      "body": "Я́года — маленький сочный или мясистый плод, обычно кустарниковых или травянистых растений; в плодоводстве — плод, у которого съедобен весь околоплодник.",
+      "is_publication": true,
+      "user": null
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 4,
+    "fields": {
+      "name": "erthsdfh",
+      "body": "ssdfghsryjnsegshdgfhsdfgsdf sdfghs dfg sdfg sdfgs dfg",
+      "is_publication": false,
+      "user": null
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 5,
+    "fields": {
+      "name": "Важная информация!",
+      "body": "Внимание! Картинка Внимание! Картинка Внимание очень важная информация!",
+      "is_publication": false,
+      "user": 2
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 6,
+    "fields": {
+      "name": "Внимание очень важная информация!",
+      "body": "Внимание! Картинка Внимание! Картинка Внимание очень важная информация!",
+      "is_publication": true,
+      "user": 2
+    }
+  }

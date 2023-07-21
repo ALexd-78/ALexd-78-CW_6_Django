@@ -21,19 +21,11 @@ class MessageAdmin(admin.ModelAdmin):
 
 @admin.register(SetMessage)
 class SetMessageAdmin(admin.ModelAdmin):
-    # list_display = ('message', 'mailing_time', 'frequency', 'status')
-    list_display = ('message', 'mailing_time',)
-    # search_fields = ('frequency', 'status')
-    search_fields = ('mailing_time',)
-    list_filter = ('mailing_time', 'frequency', 'status')
-    list_filter = ('mailing_time',)
-@admin.register(LogMessage)
-class LogMessageAdmin(admin.ModelAdmin):
-    # list_display = ('product', 'name', 'number', 'is_active')
-    list_display = ('message', 'last_try', 'status_try')
-    # search_fields = ('status_try', 'server_response')
-    search_fields = ('status_try',)
-    # list_filter = ('last_try', 'status_try', 'server_response')
-    list_filter = ('last_try', 'status_try',)
+    list_display = ('time', 'frequency', 'status')
+    list_filter = ('time',)
+    search_fields = ('status',)
 
+# @admin.register(LogMessage)
+# class LogMessageAdmin(admin.ModelAdmin):
+#     list_display = ('status',)
 
